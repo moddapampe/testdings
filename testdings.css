@@ -92,3 +92,7 @@ span {
     text-shadow: 2px 2px #000000;
     color: red;
 }
+
+main>div {
+    border: 2px dashed black;
+}
