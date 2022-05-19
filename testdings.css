@@ -143,3 +143,16 @@ div::after {
     background-color: darkolivegreen;
     border-radius: 50%;
 }
+
+p::first-letter {
+    font-size: 200%;
+    color: currentColor;
+}
+
+p::first-line {
+    color: darkgoldenrod;
+}
+
+::selection {
+    color: gold;
+}
