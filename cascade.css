@@ -1,0 +1,27 @@
+html {
+    font-size: 5rem;
+}
+
+* {
+    color: dodgerblue;
+}
+
+h1 {
+    font-size: 100%;
+}
+
+main {
+    color: burlywood;
+}
+
+.aqua {
+    color: aqua;
+}
+
+.red {
+    color: red;
+}
+
+#main {
+    color: mediumaquamarine;
+}
