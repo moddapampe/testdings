@@ -76,3 +76,19 @@ p {
 [src] {
     box-shadow: 2px 2px darkslategrey;
 }
+
+h1,
+p,
+h2 {
+    background-color: cornflowerblue;
+}
+
+main div {
+    background-color: goldenrod;
+}
+
+span {
+    font-size: 200%;
+    text-shadow: 2px 2px #000000;
+    color: red;
+}
