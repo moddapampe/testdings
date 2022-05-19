@@ -8,7 +8,6 @@ h1 {
 }
 
 p {
-    color: red !important;
     font-size: 50%;
 }
 
@@ -44,4 +43,10 @@ ul {
 li::first-letter {
     font-size: 30px;
     color: blue;
+}
+
+.article {
+    color: rgb(135, 113, 155);
+    font-size: smaller;
+    background-color: aquamarine;
 }
