@@ -50,3 +50,11 @@ li::first-letter {
     font-size: smaller;
     background-color: aquamarine;
 }
+
+button {
+    width: 60px;
+    height: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px saddlebrown;
+    all: unset;
+}
