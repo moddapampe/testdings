@@ -10,6 +10,11 @@ h1 {
     font-size: 100%;
 }
 
+p {
+    color: red !important;
+    font-size: 50%;
+}
+
 main {
     color: burlywood;
 }
@@ -24,4 +29,8 @@ main {
 
 #main {
     color: mediumaquamarine;
+}
+
+.fancy-p {
+    color: burlywood;
 }
