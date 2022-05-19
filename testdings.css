@@ -104,3 +104,11 @@ main+div {
 main~div {
     border: 2px black solid;
 }
+
+article+article {
+    background-color: bisque;
+}
+
+a:visited {
+    color: black;
+}
