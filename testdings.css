@@ -112,3 +112,15 @@ article+article {
 a:visited {
     color: black;
 }
+
+li:first-child {
+    background-color: darkkhaki;
+}
+
+li:nth-last-child(5) {
+    background-color: seagreen;
+}
+
+li:only-child {
+    background-color: blanchedalmond;
+}
