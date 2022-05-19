@@ -1,0 +1,61 @@
+#home {
+    font-weight: bold;
+    font-size: 200%;
+    color: chocolate;
+    text-shadow: 2px 2px #000000;
+}
+
+.menu {
+    font-family: monospace;
+    font-size: 16px;
+    color: crimson;
+}
+
+#start {
+    font-family: monospace;
+    font-size: 16px;
+    color: crimson;
+}
+
+#about {
+    font-family: monospace;
+    font-size: 16px;
+    color: crimson;
+}
+
+#mail {
+    font-family: monospace;
+    font-size: 16px;
+    color: crimson;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+.noidea {
+    width: 500px;
+    height: auto;
+    background-color: aqua;
+    margin: 40px;
+    padding: 20px;
+    float: inline-start;
+}
+
+.noidea2 {
+    width: 500px;
+    height: auto;
+    background-color: aqua;
+    margin: 40px;
+    padding: 20px;
+    float: inline-start;
+    border: 5px solid rebeccapurple;
+}
+
+div:nth-child(1) {
+    box-sizing: content-box;
+}
+
+div:nth-child(2) {
+    box-sizing: border-box;
+}
