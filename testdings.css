@@ -100,3 +100,7 @@ main>div {
 main+div {
     border: 2px dodgerblue dotted;
 }
+
+main~div {
+    border: 2px black solid;
+}
