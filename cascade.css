@@ -1,9 +1,6 @@
 html {
     font-size: 5rem;
-}
-
-* {
-    color: dodgerblue;
+    font-family: montserrat;
 }
 
 h1 {
@@ -33,4 +30,18 @@ main {
 
 .fancy-p {
     color: burlywood;
+}
+
+.noidea {
+    font-size: 24px;
+}
+
+ul {
+    color: red;
+    font-weight: bold;
+}
+
+li::first-letter {
+    font-size: 30px;
+    color: blue;
 }
