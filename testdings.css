@@ -124,3 +124,22 @@ li:nth-last-child(5) {
 li:only-child {
     background-color: blanchedalmond;
 }
+
+h1::before {
+    content: 'Whoa ';
+    color: gray;
+}
+
+h1::after {
+    content: ' Hui';
+    color: gray;
+}
+
+div::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: darkolivegreen;
+    border-radius: 50%;
+}
