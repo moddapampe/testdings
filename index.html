@@ -12,20 +12,20 @@
 
 <body>
     <header>
-        <h1>testdings</h1>
+        <h1 id="home">testdings</h1>
     </header>
     <nav class="menu">
         <ul>
             <li><a href="#">startpage</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
+            <li id="about"><a href="#">about</a></li>
+            <li id="mail"><a href="#">contact</a></li>
         </ul>
     </nav>
     <main>
-        <article>
+        <article id="article1">
             <h2>my profile</h2>
         </article>
-        <article>
+        <article id="article2">
             <h2>Experiences</h2>
             <section>
                 <h3>just a cook</h3>
@@ -34,8 +34,8 @@
                 <h3>and so on</h3>
             </section>
         </article>
-        <article>
-            <h2>useful skills</h2>
+        <article id="article3">
+            <h2 id="skills">useful skills</h2>
             <section>
                 <h3>soft skills</h3>
             </section>
@@ -43,18 +43,18 @@
                 <h3>technical skills</h3>
             </section>
         </article>
-        <article>
-            <h2>contact</h2>
+        <article id="article4">
+            <h2 id="contact">contact</h2>
         </article>
         <section>
             <blockquote>
                 <p>blockquote wall of text</p>
-                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong> ad harum veniam, adipisci ab at fuga veritatis voluptatem suscipit corrupti,</strong> esse voluptatum itaque, voluptates quas unde quidem eos. Fugiat, velit!</q><br>
+                <q id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong> ad harum veniam, adipisci ab at fuga veritatis voluptatem suscipit corrupti,</strong> esse voluptatum itaque, voluptates quas unde quidem eos. Fugiat, velit!</q><br>
                 <strong>WTF - DON'T YOU!!!1</strong><br>
                 <footer>Herman Munster '2003</footer>
             </blockquote>
         </section>
-        <article>
+        <article id="article5">
             <section>
                 <div class="noidea">
                     <ul>
@@ -71,15 +71,32 @@
                     <p><abbr title="Guesthouse Paradiso">GP 3000</abbr> for a whatever</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Explicabo tempore nihil in omnis, suscipit, <br>recusandae repudiandae commodi quis voluptatum nesciunt <br>aperiam reprehenderit enim exercitationem odit at sunt perspiciatis.
                         <br>Explicabo, omnis.</p>
-                    <p><address>
+                    <p id="address"><address>
                             Horst Kaktus<br>
                             Wanne- Eickel,<br>
                             Schland
                         </address></p>
                 </div>
+                <div class="noidea2">
+                    <a href="#" target="_blank">nix Google</a>
+                    <a href="#contact">contact</a>
+                    <a href="mailto:nosupport@moddpampe.de">mail</a>
+                    <a href="http://if-schleife.de/">Wat? o.O</a>
+                    <a href="tel:+49173240000">phone</a>
+                </div>
             </section>
         </article>
     </main>
+    <footer class="footer">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#lorem">lorem</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#address">address</a></li>
+            <li><a href="#mail">mail</a></li>
+            <li><a href="#skills">skills</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
